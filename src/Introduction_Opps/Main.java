@@ -3,7 +3,19 @@ import Introduction_Opps.Students;
 
 public class Main {
     public static void main(String[] args) {
-        Students s1 = new Students();
+
+        Students s1 = new Students("A",30,30.00);
+        s1.name = "Sofia";
+        int age = s1.getAge();
+        s1.psp = 3.00;
+        s1.setAge(-20);
+
+        Students s2 = new Students(s1);
+
+        System.out.println(s1.hashCode()+"-"+s2.hashCode());
+
+
+        /*Students s1 = new Students();
         s1.name = "Sofia";
         s1.age = 30;
         s1.batchName = "abc";
@@ -30,5 +42,6 @@ public class Main {
 
         s1.giveMockInterview();
         s2.giveMockInterview();
+        */
     }
 }
