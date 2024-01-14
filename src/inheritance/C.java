@@ -21,4 +21,8 @@ public class C extends B{
     void doSomething(int a,String abc){
         System.out.println("Something: " + a + abc);
     }
+
+    void run(){
+        System.out.println("Running");
+    }
 }

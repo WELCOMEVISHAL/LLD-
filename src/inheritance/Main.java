@@ -1,5 +1,7 @@
 package inheritance;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args){
         Students s = new Students();
@@ -26,5 +28,12 @@ public class Main {
 
         C c1 = new D();
         c1.doSomething();
+
     }
+
+//    void running(List<A> participent){
+//        for(A a : participent){
+//            a.run
+//        }
+ //   }
 }
