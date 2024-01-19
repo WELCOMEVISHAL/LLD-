@@ -14,7 +14,7 @@ public class Main {
 
         //ExecutorService es = Executors.newFixedThreadPool(4020);
         ExecutorService es = Executors.newCachedThreadPool();
-        for(int i = 0;i <= 1000000;i++){
+        for(int i = 0;i <= 10000;i++){
             if(i == 80){
                 System.out.println("hey");
             }
