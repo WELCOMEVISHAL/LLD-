@@ -28,7 +28,7 @@ public class Main {
         dos.rec(2);
 
         //A->B->C->D
-        //catch(D,C,B,A..
+        //catch(D,C,B,A.....
 
         System.out.println("Something Went wrong 2");
 
