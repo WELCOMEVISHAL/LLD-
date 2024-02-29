@@ -12,6 +12,6 @@ public class main {
         Beverage b2 = new Espresso();
         b2 = new Whip(b2);
 
-        System.out.println(b.getPrice());
+        System.out.println(b2.getPrice());
     }
 }
